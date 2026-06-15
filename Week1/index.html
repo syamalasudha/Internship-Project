@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Syamala Portfolio</title>
 </head>
 <body>
 
-
+    
     <header>
         <h1>Syamala</h1>
+        <p>Web Development Beginner</p>
 
         <nav>
             <a href="#about">About</a> |
             <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a> |
             <a href="#contact">Contact</a>
         </nav>
 
@@ -21,101 +23,133 @@
     </header>
 
     
-    <main>
+    <section id="about">
+        <h2>About Me</h2>
 
-        
-        <section id="about">
-            <h2>About Me</h2>
+        <img src="images/profile.jpg"
+             alt="Profile Picture"
+             width="200">
 
-            <img src="images/profile.jpg"
-                 alt="Profile picture of My Name"
-                 width="200">
+        <p>
+            Hello! My name is Syamala. I am learning web development
+            and currently studying HTML, CSS, JavaScript, and GitHub.
+        </p>
 
-            <p>
-                Hello! I am a web development beginner currently learning
-                HTML, CSS, JavaScript, and GitHub. I enjoy creating websites
-                and improving my coding skills through projects.
-            </p>
-        </section>
+        <p>
+            I enjoy creating websites and improving my coding skills
+            through practice and projects.
+        </p>
 
         <hr>
+    </section>
 
     
-        <section id="skills">
-            <h2>Skills</h2>
+    <section id="skills">
+        <h2>Skills</h2>
 
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript (Beginner)</li>
-                <li>Git & GitHub</li>
-                <li>Problem Solving</li>
-            </ul>
-        </section>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (Beginner)</li>
+            <li>Git & GitHub</li>
+        </ul>
 
-        <hr>
-
-        
-        <section id="contact">
-            <h2>Contact Me</h2>
-
-            <form action="#" method="post">
-
-                <label for="name">Name:</label><br>
-                <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required>
-                <br><br>
-
-                <label for="email">Email:</label><br>
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required>
-                <br><br>
-
-                <label for="message">Message:</label><br>
-                <textarea
-                    id="message"
-                    name="message"
-                    rows="5"
-                    cols="30"
-                    required></textarea>
-                <br><br>
-
-                <button type="submit">Send Message</button>
-
-            </form>
-        </section>
+        <h3>Soft Skills</h3>
+        <ol>
+            <li>Communication</li>
+            <li>Problem Solving</li>
+            <li>Teamwork</li>
+            <li>Time Management</li>
+        </ol>
 
         <hr>
+    </section>
 
-        
-        <section>
-            <h2>Connect With Me</h2>
+  
+    <section id="projects">
+        <h2>Projects</h2>
 
+        <article>
+            <h3>Portfolio Website</h3>
             <p>
-                <a href="https://github.com/yourusername" target="_blank">
-                    GitHub
-                </a>
+                A simple personal portfolio website created using HTML.
             </p>
+        </article>
 
+        <article>
+            <h3>Student Registration Form</h3>
             <p>
-                <a href="https://linkedin.com/in/yourprofile" target="_blank">
-                    LinkedIn
-                </a>
+                A basic form project using HTML form elements.
             </p>
-        </section>
+        </article>
 
-    </main>
+        <hr>
+    </section>
 
-    <hr>
+   
+    <section id="contact">
+        <h2>Contact Me</h2>
 
-    
+        <form action="#" method="post">
+
+            <label for="name">Name:</label><br>
+            <input type="text"
+                   id="name"
+                   name="name"
+                   required>
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   required>
+            <br><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel"
+                   id="phone"
+                   name="phone"
+                   pattern="[0-9]{10}">
+            <br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message"
+                      name="message"
+                      rows="5"
+                      cols="30"
+                      required></textarea>
+            <br><br>
+
+            <button type="submit">Send Message</button>
+            <button type="reset">Reset</button>
+
+        </form>
+
+        <hr>
+    </section>
+
+   
+    <section>
+        <h2>Connect With Me</h2>
+
+        <p>
+            <a href="https://github.com/syamalasudha" target="_blank">
+                GitHub Profile
+            </a>
+        </p>
+
+        <p>
+            <a href="https://linkedin.com/in/SyamalasudhaYelubandi" target="_blank">
+                LinkedIn Profile
+            </a>
+        </p>
+    </section>
+
+    <!-- Footer -->
     <footer>
+        <hr>
         <p>&copy; 2026 Syamala. All Rights Reserved.</p>
     </footer>
 
