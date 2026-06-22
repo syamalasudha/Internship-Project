@@ -1,14 +1,14 @@
-# 🌐 Personal Portfolio Website
+#  Personal Portfolio Website
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is a responsive **Personal Portfolio Website** developed using **HTML5** and **CSS3**. It is designed to showcase personal information, technical skills, projects, and contact details in a clean and professional layout.
 
 The website demonstrates modern web design principles, including responsive layouts, CSS Grid, Flexbox, hover effects, and a consistent color scheme.
 
----
 
-## 🚀 Features
+
+##  Features
 
 * Responsive design for desktop, tablet, and mobile devices
 * Modern navigation bar with smooth scrolling
@@ -21,9 +21,9 @@ The website demonstrates modern web design principles, including responsive layo
 * Google Fonts integration for improved typography
 * External CSS stylesheet for better maintainability
 
----
 
-## 🛠️ Technologies Used
+
+##  Technologies Used
 
 * HTML5
 * CSS3
@@ -31,21 +31,28 @@ The website demonstrates modern web design principles, including responsive layo
 * CSS Grid
 * Google Fonts (Poppins)
 
----
 
-## 📂 Project Structure
 
-```
+##  Project Structure
+
+
 portfolio/
 │── index.html
 │── style.css
 └── images/
     └── profile.jpg
-```
+|__screenshots/
+     |__About.png
+     |__Contact.png
+     |__Home.png
+     |__Mobile View.png
+     |__Projects.png
+     |__Skills.png
 
----
 
-## 🎯 CSS Concepts Implemented
+
+
+##  CSS Concepts Implemented
 
 * Universal selector (`*`) for resetting default styles
 * Class selectors for reusable components
@@ -57,9 +64,8 @@ portfolio/
 * Media queries for responsive design
 * Box shadows, border radius, and transitions for modern UI
 
----
 
-## 📱 Responsive Design
+##  Responsive Design
 
 The website adapts to different screen sizes using media queries.
 
@@ -67,9 +73,9 @@ The website adapts to different screen sizes using media queries.
 * Tablet: Adjusted spacing and alignment
 * Mobile: Stacked layout with optimized navigation and content
 
----
 
-## 📅 Development Plan
+
+##  Development Plan
 
 ### Day 1 – Setup
 
@@ -109,9 +115,9 @@ The website adapts to different screen sizes using media queries.
 * Checked browser compatibility
 * Organized code for readability and maintenance
 
----
 
-## 📷 Website Sections
+
+##  Website Sections
 
 * Home
 * About
@@ -120,9 +126,9 @@ The website adapts to different screen sizes using media queries.
 * Contact
 * Footer
 
----
 
-## 🎓 Learning Outcomes
+
+##  Learning Outcomes
 
 Through this project, I gained practical experience with:
 
@@ -132,8 +138,8 @@ Through this project, I gained practical experience with:
 * Creating interactive user experiences with hover effects and transitions
 * Organizing code using external stylesheets and reusable components
 
----
 
-## 📄 Conclusion
+
+##  Conclusion
 
 This portfolio website serves as a foundation for presenting personal projects and technical skills in a professional manner. It follows responsive web design principles and demonstrates core frontend development concepts suitable for academic assignments and internship submissions.
