@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JAVASCRIPT PROJECT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- DAY 3: Event Handling UI -->
+  <header class="header">
+    <h1 id="title">JavaScript Project</h1>
+    <button id="darkBtn"> Dark Mode</button>
+  </header>
+
+  <!-- DAY 4: Form Validation -->
+  <section class="box">
+    <h2>Contact Form</h2>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Name">
+      <small id="nameError"></small>
+
+      <input type="email" id="email" placeholder="Email">
+      <small id="emailError"></small>
+
+      <textarea id="message" placeholder="Message"></textarea>
+      <small id="messageError"></small>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="successMsg"></p>
+  </section>
+
+  <!-- DAY 2 + DAY 3: DOM Manipulation + Events -->
+  <section class="box">
+    <h2>Live Text Changer</h2>
+    <input type="text" id="textInput" placeholder="Type something">
+    <button id="changeTextBtn">Change Text</button>
+
+    <p id="liveText">Your text will appear here</p>
+  </section>
+
+  <!-- DAY 5: Interactive Feature - Image Gallery -->
+  <section class="box">
+    <h2>Image Gallery</h2>
+
+    <div class="gallery">
+      <img src="images/image1.jpeg" class="img">
+      <img src="images/image2.jpg" class="img">
+      <img src="images/image3.jpg" class="img">
+    </div>
+
+    <p id="imgInfo">Click an image</p>
+  </section>
+
+  <!-- DAY 6: Local Storage -->
+  <section class="box">
+    <h2>Save Your Name (Local Storage)</h2>
+
+    <input type="text" id="userName" placeholder="Enter name">
+    <button id="saveBtn">Save</button>
+
+    <p id="savedName"></p>
+  </section>
+
+  <script src="script.js"></script>
+ <div id="imgModal" class="modal">
+  <span id="closeModal">&times;</span>
+  <img id="modalImg" class="modal-content">
+</div>
+</body>
+</html>
