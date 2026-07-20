@@ -1,0 +1,6 @@
+{
+  "name": "React E-Commerce Frontend",
+  "description": "A production-quality E-Commerce frontend featuring product filtering, search, dynamic product details, cart persistent state, local authentication, and secure checkout simulation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
